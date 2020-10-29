@@ -1,0 +1,18 @@
+
+
+ <header>
+    <h1 class="title">Countdown</h1>
+</header>
+<div class="content">
+    
+    <div class="counter" style=" color: red;">
+        {{counter}}
+    </div>
+    <input id="seconds" type="number" placeholder="enter Time..." [(ngModel)]="seconds" style="color: black;background-color: blueviolet;">
+    <div class="buttons">
+        <button class="btn start" id="start" (click)="check($event,'1')">Start</button>
+        <button class="btn start" id="continue" value="1" (click)="check($event,'1')">Continue</button>
+        <button class="btn stop"  id="stop" value="0"  (click)="check($event,'0')">Stop</button>
+        <button class="btn start" id="submit" (click)="subm()" style="color: blueviolet;">Submit</button>
+    </div>
+</div>

@@ -1,0 +1,127 @@
+.wave{
+    position: fixed;
+    z-index: -1;
+    left: 0px;
+    height: 100%;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.login-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form{
+    width: 360px;
+}
+
+form h2{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    color: #333;
+}
+
+.input-div{
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0px;
+    padding: 5px 0px;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.input-div .one{
+          margin-top: 0px;
+}
+
+.input-div .two{
+          margin-bottom: 4px;
+}
+
+.img img{
+    width: 500px;
+}
+
+.avatar{
+    width: 100px;
+}
+
+.i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i i{
+    color: #d9d9d9;
+}
+
+
+.input-div > div{
+    position: relative;
+    height: 45px;
+}
+
+.input-div > div h5{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #999;
+    transition: .3s;
+}
+
+.input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+}
+
+a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #999;
+    transition: .3s;
+    font-size: 0.9rem;
+}
+
+
+a :hover{
+    color: #38d39f;
+}
+
+
+.btn{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
